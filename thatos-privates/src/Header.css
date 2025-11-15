@@ -1,0 +1,54 @@
+/* Header container */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: transparent; /* Can change to your theme color */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  position: sticky; /* Stays on top */
+  top: 0;
+  z-index: 1000;
+}
+
+/* Site title */
+header h1 {
+  font-family: 'Georgia', serif;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #222;
+  margin: 0;
+}
+
+/* Book Now link styled as button */
+header .book {
+  text-decoration: none;
+  background-color: #007BFF;
+  color: #fff;
+  padding: 0.6rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover effect for Book Now button */
+header .book:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  header .book {
+    width: 80%;
+    text-align: center;
+    padding: 0.6rem 0;
+  }
+}
