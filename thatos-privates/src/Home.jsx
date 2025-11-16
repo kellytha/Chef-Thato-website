@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "./Home.css";
+import Grilled from "../public/Grilled salmon.jpg"
 
 function Home() {
   return (
@@ -22,7 +23,7 @@ function Home() {
 
       <div>
         <img
-          src="../public/Grilled salmon.jpg"
+          src={ Grilled }
           alt="Grilled salmon with asparagus"
           className="image"
         />
