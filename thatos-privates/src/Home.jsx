@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import "./Home.css";
-import Grilled from "../public/Grilled salmon.jpg"
+import Grilled from "../public/Grilled salmon.JPG"
 
 function Home() {
   return (
