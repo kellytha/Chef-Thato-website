@@ -2,6 +2,9 @@ import Catering from "../public/Catering.JPG";
 import Intimate from "../public/Intimate dinner for two.JPG";
 import Weekly from "../public/Weekly.JPG";
 import "../src/Services.css"
+import { Link } from "react-router-dom";
+
+
 function Services() {
   return (
     <>
@@ -23,7 +26,7 @@ function Services() {
             get-togethers.
           </p>
           <h3>From R500</h3>
-          <a href="#">Learn More</a>
+          <Link to='/book' ><button>Contact Me For More</button></Link>
         </div>
 
         {/* Intimate Dinner */}
@@ -35,7 +38,7 @@ function Services() {
             home. Ideal for anniversaries or special celebrations.
           </p>
           <h3>From R1680</h3>
-          <a href="#">Learn More</a>
+          <Link to='/book' ><button>Contact Me For More</button></Link>
         </div>
 
         {/* Weekly Meal Prep */}
@@ -47,7 +50,7 @@ function Services() {
             delicious meals tailored to your dietary needs — delivered to your door.
           </p>
           <h3>From R640</h3>
-          <a href="#">Learn More</a>
+          <Link to='/book' ><button>Contact Me For More</button></Link>
         </div>
 
       </div>

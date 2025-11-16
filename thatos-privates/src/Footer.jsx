@@ -24,6 +24,9 @@ function Footer() {
         <p>Email: <a href="mailto:andileamese@gmail.com">andileamese@gmail.com</a></p>
         <p>Instagram: <a href="https://instagram.com/culinarycreationsby_thato" target="_blank" rel="noopener noreferrer">@culinarycreationsby_thato</a></p>
       </div>
+      
+      <small>© {new Date().getFullYear()} All Rights Reserved</small>
+
     </footer>
   );
 }
