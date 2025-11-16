@@ -1,5 +1,5 @@
 import "./Last.css";
-import Wild from "../public/Wld mushroom.jpg"
+import Wild from "../public/Wld mushroom.JPG"
 
 
 function Last() {
@@ -17,7 +17,7 @@ function Last() {
 
       <div className="image-container">
         <img
-          src={ Wild}
+          src={ Wild }
           alt="Wild Mushroom Risotto"
           className="last-image"
         />

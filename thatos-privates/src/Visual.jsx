@@ -1,12 +1,12 @@
 import "../src/Visual.css";
 import Grilled from "../public/Grilled salmon.JPG";
-import Wild from "../public/Wld mushroom.jpg";
-import Moroccan from "../public/Moroccan lamb.jpg";
-import Caprese from "../public/Caprese skewers.jpg";
-import Pan from "../public/Pan-seared.jpg";
-import Vegan from "../public/Vegan buddha.jpg";
-import Decadent from "../public/Decadent chocolate.jpg";
-import Spicy from "../public/Spicy shrimp.jpg";
+import Wild from "../public/Wld mushroom.JPG";
+import Moroccan from "../public/Moroccan lamb.JPG";
+import Caprese from "../public/Caprese skewers.JPG";
+import Pan from "../public/Pan-seared.JPG";
+import Vegan from "../public/Vegan buddha.JPG";
+import Decadent from "../public/Decadent chocolate.JPG";
+import Spicy from "../public/Spicy shrimp.JPG";
 
 function Visual() {
   const gallery = [
