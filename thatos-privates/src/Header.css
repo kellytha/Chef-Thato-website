@@ -1,12 +1,10 @@
-/* Header container */
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: transparent; /* Can change to your theme color */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  position: sticky; /* Stays on top */
+  background-color: transparent; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
   top: 0;
   z-index: 1000;
 }
